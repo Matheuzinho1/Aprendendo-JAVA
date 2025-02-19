@@ -5,8 +5,9 @@ public class Principal17 {
                 Scanner ler = new Scanner(System.in);
                 System.out.println("Converter minutos em anos");
                 System.out.println("Insira a quantidade de minutos que deseja converter: ");
-                int minutos = ler.nextInt();
-                int anos = minutos / 525600;
-                System.out.println(minutos + " minutos equivalem a " + anos + " anos.");
+                double minutos = ler.nextInt();
+                double anos = minutos / 525600;
+                System.out.printf("A quantidade %.2f de minutos convertidos em anos é: %.2f", minutos, anos);
+                ler.close();
         }
 }
