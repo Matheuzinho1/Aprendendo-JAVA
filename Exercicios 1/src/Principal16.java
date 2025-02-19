@@ -12,8 +12,7 @@ public class Principal16 {
         double areaSala = largura * comprimento;
         double lajota = 0.3 * 0.3;
         double res = areaSala / lajota;
-        res = Math.ceil(res);
-        System.out.printf("A quantidade de lajotas necessárias é: %.0f\n", res);
+        System.out.printf("A quantidade de lajotas necessárias é: %.2f\n", res);
 
     ler5.close();
 }}
