@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Principal12 {
     public static void main(String[] args) {
-        Scanner ler5 = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.print("Insira o valor do lado: ");
-        double lado = ler5.nextDouble();
+        double lado = ler.nextDouble();
         
         double raiz = Math.sqrt(3);
         double raiz2 = raiz / 2;
@@ -13,6 +13,6 @@ public class Principal12 {
         
         System.out.printf("O tamanho do triangulo equilatero é: %.2f", raiz3);
 
-        ler5.close();
+        ler.close();
     }
 }

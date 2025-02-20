@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Principal11 {
     public static void main(String[] args) {
-        Scanner ler5 = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.print("Digite qual opção você quer (Quadrado ou Triângulo): ");
-        String opcao = ler5.next().toLowerCase();
+        String opcao = ler.next().toLowerCase();
 
-        System.out.println("O perímetro do " + opcao + " é: " + perimetro(opcao, ler5));
+        System.out.println("O perímetro do " + opcao + " é: " + perimetro(opcao, ler));
 
-        ler5.close();
+        ler.close();
     }
 
     public static int perimetro(String a, Scanner scanner) {

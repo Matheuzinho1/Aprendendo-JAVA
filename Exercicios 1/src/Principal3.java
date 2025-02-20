@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Principal3 {
     public static void main(String[] args) {
-        Scanner ler3 = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.print("Insira o primeiro valor: ");
-        int valor1 = ler3.nextInt();
+        int valor1 = ler.nextInt();
         System.out.print("Insira o segundo valor: ");
-        int valor2 = ler3.nextInt();
+        int valor2 = ler.nextInt();
         System.out.print("Insira o que deseja fazer com o valor (+, -, *, /): ");
-        String operacao = ler3.next();
+        String operacao = ler.next();
 
         switch (operacao) {
             case "+":
@@ -29,6 +29,6 @@ public class Principal3 {
                 break;
         }
         System.out.println("O resultado é: " + valor1);
-        ler3.close();
+        ler.close();
     }
 }   

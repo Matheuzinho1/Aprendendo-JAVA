@@ -2,20 +2,20 @@ import java.util.Scanner;
 
 public class Principal7 {
     public static void main(String[] args) {
-        Scanner ler5 = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.print("Digite o primeiro número: ");
-        int numero = ler5.nextInt();
+        int numero = ler.nextInt();
         System.out.print("Digite o segundo número: ");
-        int numero2 = ler5.nextInt();
+        int numero2 = ler.nextInt();
         System.out.print("Digite o terceiro número: ");
-        int numero3 = ler5.nextInt();
+        int numero3 = ler.nextInt();
         System.out.print("Digite o quarto número: ");
-        int numero4 = ler5.nextInt();
+        int numero4 = ler.nextInt();
 
         System.out.println("A média é: " + media(numero, numero2, numero3, numero4));
 
-        ler5.close();
+        ler.close();
     }
 
     public static int media(int a, int b, int c, int d) {

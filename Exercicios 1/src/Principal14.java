@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Principal14 {
     public static void main(String[] args) {
-        Scanner ler5 = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.print("Insira o valor de A: ");
-        int a = ler5.nextInt();
+        int a = ler.nextInt();
         System.out.print("Insira o valor de B: ");
-        int b = ler5.nextInt();
+        int b = ler.nextInt();
         System.out.print("Insira o valor de C: ");
-        int c = ler5.nextInt();
+        int c = ler.nextInt();
 
         if(a == 0) {
             System.out.printf("O valor de 'a' deve ser diferente de zero.\n");
@@ -24,6 +24,6 @@ public class Principal14 {
                 System.out.printf("O valor de X2 é: %.2f\n", x2);
         }};
 
-        ler5.close();
+        ler.close();
     }
 }

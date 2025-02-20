@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Principal15 {
     public static void main(String[] args) {
-        Scanner ler5 = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.print("Insira o valor em REAL: ");
-        int real = ler5.nextInt();
+        int real = ler.nextInt();
         System.out.println("Escolha a moeda para conversão:");
         System.out.println("1 - Dólar");
         System.out.println("2 - Euro");
@@ -13,7 +13,7 @@ public class Principal15 {
         System.out.println("4 - Peso Argentino");
         System.out.println("5 - Iene Japonês");
         System.out.print("Opção: ");
-        int opcao = ler5.nextInt();
+        int opcao = ler.nextInt();
 
         switch (opcao) {
             case 1:
@@ -36,5 +36,5 @@ public class Principal15 {
                 break;
 
     }
-    ler5.close();
+    ler.close();
 }}
