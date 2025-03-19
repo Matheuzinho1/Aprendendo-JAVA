@@ -17,5 +17,3 @@ Se você tiver sugestões ou quiser compartilhar dicas, fique à vontade para ab
 
 ---
 Vamos juntos nessa jornada! 🚀
-
-a
