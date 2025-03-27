@@ -17,9 +17,9 @@ public class segundoMaior1 {
 		double num5 = Double.parseDouble(num5String);
 		double maior = 0;
 		double segundoMaior = 0;
-		
-		if(num1 == num2 && num2 == num3) {
-			JOptionPane.showMessageDialog(null, "Os valores três são iguais");
+
+		if (num1 == num2 && num1 == num3 && num1 == num4 && num1 == num5) {
+			JOptionPane.showMessageDialog(null, "Os cinco valores são iguais");
 		} else {
 			
 			if(num1 > num2) {

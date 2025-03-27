@@ -2,7 +2,7 @@ package Exercicios_3.src;
 
 import java.util.Scanner;
 
-public class maiorMenorTodos {
+public class maiorMenorTodos1 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         

@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 import javax.swing.*;
 
-public class areaHexagono {
+public class areaHexagono1 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         DecimalFormat format = new DecimalFormat("#.##");

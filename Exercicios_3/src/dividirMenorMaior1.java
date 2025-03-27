@@ -3,7 +3,7 @@ package Exercicios_1.src;
 import java.text.DecimalFormat;
 import javax.swing.JOptionPane;
 
-public class dividirMenorMaior {
+public class dividirMenorMaior1 {
 	public static void main(String[] args) {
 		String num1String = JOptionPane.showInputDialog(null, "Insira o primeira valor");
 		String num2String = JOptionPane.showInputDialog(null, "Insira o segundo valor");

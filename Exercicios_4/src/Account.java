@@ -13,6 +13,10 @@ public class Account {
         return false;
     }
 
+    boolean deposit(String amount) {
+        return deposit(Double.parseDouble(amount));
+    }
+
     boolean withdraw(double amount) {
         if(amount > 0) {
             balanceAccount -= amount;
@@ -21,7 +25,20 @@ public class Account {
         return false;
     }
 
+    void transfer(Double amount, Account targetAccount) {
+        withdraw(amount);
+        targetAccount.deposit(amount);
+    }
+
     void printBalance() {
         System.out.println("Saldo: " + balanceAccount);
+    }
+
+    boolean loan(double amount) {
+        if(balanceAccount > 1000) {
+            deposit(amount);
+            return true;
+        }
+        return false;
     }
 }

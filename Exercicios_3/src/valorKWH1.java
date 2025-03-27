@@ -3,7 +3,7 @@ package Exercicios_3.src;
 import java.text.DecimalFormat;
 import javax.swing.JOptionPane;
 
-public class valorKWH {
+public class valorKWH1 {
 	public static void main(String[] args) {
 		String num1String = JOptionPane.showInputDialog(null, "Insira o valor em KWH gasto");
 		
