@@ -2,7 +2,7 @@ package Iniciando_com_REPETICAO.src;
 
 import javax.swing.*;
 
-public class QumeroPrimo2 {
+public class NumeroPrimo2 {
     public static void main(String[] args) {
         String numString = JOptionPane.showInputDialog(null, "Insira um número", "Calculadora de PRIMO", JOptionPane.QUESTION_MESSAGE);
 
