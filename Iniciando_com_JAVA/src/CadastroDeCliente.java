@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class CadastroDeCliente {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
+
         String[] nome = new String[100];
         int[] idade = new int[100];
-        int[] cpf = new int[100];
+        long[] cpf = new long[100];
         int count = 0;
         String repetir = "sim";
 
@@ -36,7 +37,7 @@ public class CadastroDeCliente {
                     idade[count] = ler.nextInt();
 
                     System.out.print("Insira o CPF: ");
-                    cpf[count] = ler.nextInt();
+                    cpf[count] = ler.nextLong();
 
                     System.out.println("Cadastro concluído com sucesso.");
                     count++;
@@ -68,7 +69,7 @@ public class CadastroDeCliente {
                                 break;
                             case "cpf":
                                 System.out.print("Novo CPF: ");
-                                cpf[indiceAtualizar] = ler.nextInt();
+                                cpf[indiceAtualizar] = ler.nextLong();
                                 System.out.println("CPF atualizado com sucesso.");
                                 break;
                             default:
