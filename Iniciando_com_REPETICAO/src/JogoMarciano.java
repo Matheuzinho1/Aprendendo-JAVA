@@ -6,20 +6,20 @@ import java.util.Random;
 public class JogoMarciano {
     public static void main(String[] args) {
         Random rand = new Random();
-        int min = 1;
-        int max = 100;
-        int tentativasPorJogador = 5;
+        final int NUMEROMIN = 1;
+        final int NUMEROMAX = 100;
+        final int TENTATIVAPORJOGADOR = 10;
         int jogadorAtual = 1;
         int tentativa;
-        int baixo = min;
-        int alto = max;
+        int baixo = NUMEROMIN;
+        int alto = NUMEROMAX;
 
         int arvoreMarciano = rand.nextInt(100) + 1;
 
         JOptionPane.showMessageDialog(null, "O jogo começa agora. O marciano está escondido em uma árvore entre 1 e 100.");
 
-        for (int rodada = 1; rodada <= tentativasPorJogador * 2; rodada++) {
-            tentativa = Integer.parseInt(JOptionPane.showInputDialog("Rodada " + rodada + " de " + (tentativasPorJogador * 2) + "\nJogador " + jogadorAtual + ", digite a árvore (entre " + baixo + " e " + alto + "):"));
+        for (int rodada = 1; rodada <= TENTATIVAPORJOGADOR; rodada++) {
+            tentativa = Integer.parseInt(JOptionPane.showInputDialog("Rodada " + rodada + " de " + TENTATIVAPORJOGADOR + "\nJogador " + jogadorAtual + ", digite a árvore (entre " + baixo + " e " + alto + "):"));
 
             if (tentativa < baixo || tentativa > alto) {
                 JOptionPane.showMessageDialog(null, "Digite um número dentro do intervalo entre " + baixo + " e " + alto + ".");
